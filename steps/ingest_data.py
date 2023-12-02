@@ -10,7 +10,7 @@ class IngestData:
         """
         Instaniting the class 
         """
-        self.data_path = "/mnt/e/Machine_Learning_Projects/ecommerce_review_score_prediction/data/olist_customers_dataset.csv"
+        self.data_path = "/mnt/e/Machine_Learning_Projects/ecommerce_review_score_prediction/review_score_prediction_with_mlops/data/olist_customers_dataset.csv"
 
     def get_data(self):
         logging.info(f"Ingesting data from {self.data_path}")

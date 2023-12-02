@@ -6,7 +6,7 @@ from src.data_cleaning import DataCleaning, DataPreProcessStrategy
 
 def get_data_for_test():
     try:
-        df = pd.read_csv("/mnt/e/Machine_Learning_Projects/ecommerce_review_score_prediction/data/olist_customers_dataset.csv")
+        df = pd.read_csv("/mnt/e/Machine_Learning_Projects/ecommerce_review_score_prediction/review_score_prediction_with_mlops/data/olist_customers_dataset.csv")
         df = df.sample(n=100)
         preprocess_strategy = DataPreProcessStrategy()
         data_cleaning = DataCleaning(df, preprocess_strategy)
