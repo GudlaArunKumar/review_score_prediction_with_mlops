@@ -17,3 +17,7 @@ To re-train the model - `python run_deployment.py --config deploy_and_predict`
 
 For viewing a web application - `streamlit run streamlit_app.py`
 
+
+**Note:**
+
+ZenML deployment Server runs smoothly on MacOS or Linux OS but for Windows users, the turnaround is to use WSL (Windows Subystem for Linux) on Windows machine and run from any the installed bash terminal.
